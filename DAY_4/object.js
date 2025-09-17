@@ -1,54 +1,54 @@
-/*
-var a = 13;
-console.log(a);
-function fun() {
+
+// var a = 13;
+// console.log(a);
+// function fun() {
  
-    a = 43;
-    console.log(a);
+//     a = 43;
+//     console.log(a);
 
-}
-fun();
-console.log(a);
+// }
+// fun();
+// console.log(a);
 
-console.log(typeof Null);
-console.log(typeof null);
-console.log(typeof NULL);
-console.log(typeof NaN);
-console.log(typeof undefined);
+// console.log(typeof Null);
+// console.log(typeof null);
+// console.log(typeof NULL);
+// console.log(typeof NaN);
+// console.log(typeof undefined);
 
-let a = "235" - 23 + 23 + "true" - false + 23 - 235 + 235;
-console.log(a);
+// let a = "235" - 23 + 23 + "true" - false + 23 - 235 + 235;
+// console.log(a);
 
-function fun(){
-    console.log(" FSD Class! ");
-}
-console.log(fun);
-console.log(fun());
+// function fun(){
+//     console.log(" FSD Class! ");
+// }
+// console.log(fun);
+// console.log(fun());
 
-//FUNCTION AS AN EXPRESSION 
-const a = function b(){
-    console.log("FSD Class! ");
-}
-console.log(a); //cannot access 'a' before initialization 
-console.log(a());
-console.log(b);
+// //FUNCTION AS AN EXPRESSION 
+// const a = function b(){
+//     console.log("FSD Class! ");
+// }
+// console.log(a); //cannot access 'a' before initialization 
+// console.log(a());
+// console.log(b);
 
-var c = function b(){
-    console.log("FSD Class! ");
-}
-console.log(c);
-console.log(a());
+// var c = function b(){
+//     console.log("FSD Class! ");
+// }
+// console.log(c);
+// console.log(a());
 
-//arrow function (not hoisted)
-console.log(a);
-const a = () =>{
-    console.log("FSD Class! ");
-}
-console.log(a());
+// //arrow function (not hoisted)
+// console.log(a);
+// const a = () =>{
+//     console.log("FSD Class! ");
+// }
+// console.log(a());
 
-(()=> {
-    console.log("Hello");
-})();
+// (()=> {
+//     console.log("Hello");
+// })();
 
 
 const student = {
@@ -69,4 +69,3 @@ console.log(student.name);
 console.log(student.email['email2']);
 console.log(student.phoneNo);
 console.log(student['lang']['lang1']);
-*/
